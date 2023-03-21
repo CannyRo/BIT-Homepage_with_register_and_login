@@ -1,0 +1,49 @@
+#hero_section{
+    height: 80vh;
+    padding: 0.1rem 1rem 0 1rem;
+    color: aliceblue;
+    background-color: #00162b;
+    background-image: url('../img/hero_banner_vertical.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+h3{
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+}
+#argu_section{
+    padding: 0 1rem;
+}
+#argu_section div{
+    margin-top: 1rem;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 0.5rem 2rem 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.4rem );
+    -webkit-backdrop-filter: blur( 0.4rem );
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+#img_p1, #img_p3{
+    max-width: 6rem;
+    height: auto;
+    margin-left: -1rem;
+}
+#img_p2{
+    max-width: 6rem;
+    height: auto;
+    margin-right: -1rem;
+}
+#questions_section{
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
+#CTA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem
+}
