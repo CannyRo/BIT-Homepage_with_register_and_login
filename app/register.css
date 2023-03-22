@@ -27,3 +27,15 @@ main div{
     height: 1rem;
     margin: 1rem;
 }
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (min-width: 36rem) {
+    main{
+        padding: 2rem;
+        padding-bottom: 4rem;
+    }
+    #update_cloud{
+        width: 100%;
+        max-width: 32rem;
+    }
+}

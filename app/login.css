@@ -24,3 +24,15 @@ main div{
     border-radius: 0.5rem;
     border: 0.0625rem solid #00162b
 }
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (min-width: 36rem) {
+    main{
+        padding: 2rem;
+        padding-bottom: 4rem;
+    }
+    #img_security{
+        width: 100%;
+        max-width: 32rem;
+    }
+}

@@ -1,11 +1,12 @@
 #hero_section{
     height: 80vh;
+    width: 100%;
     padding: 0.1rem 1rem 0 1rem;
     color: aliceblue;
     background-color: #00162b;
     background-image: url('../img/hero_banner_vertical.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: contain;
 }
 h3{
@@ -17,7 +18,7 @@ h3{
 }
 #argu_section div{
     margin-top: 1rem;
-    padding: 0.2rem;
+    padding: 0.2rem 1rem;
     display: flex;
     align-items: center;
     background: rgba( 255, 255, 255, 0.2 );
@@ -27,14 +28,13 @@ h3{
     border-radius: 0.5rem;
     overflow: hidden;
 }
-#img_p1, #img_p3{
+#img_p1, #img_p3, #img_p2{
     max-width: 6rem;
     height: auto;
     margin-left: -1rem;
 }
 #img_p2{
-    max-width: 6rem;
-    height: auto;
+    margin-left: 0;
     margin-right: -1rem;
 }
 #questions_section{
@@ -42,8 +42,46 @@ h3{
     padding: 0 1rem;
 }
 #CTA{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem
+    padding: 1rem;
+}
+#CTA button{
+    cursor: pointer;
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (min-width: 36rem) {
+    #hero_section{
+        padding: 0.1rem 2rem 0 2rem;
+    }
+    #img_p1, #img_p3, #img_p2{
+        max-width: 12rem;
+    }
+    #questions_section{
+        padding: 0 2rem;
+    }
+    #CTA{
+        padding: 2rem;
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+    #hero_section{
+        height: 50vh;
+        background-image: url('../img/hero_banner_horizon.png');
+    }
+    #argu_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2rem;
+        max-width: 40rem;
+    }
+    #argu_section div, #questions_section, #CTA{
+        max-width: 37.5rem;
+    }
+    
 }
